@@ -20,7 +20,7 @@ export const sendImgRequest2 = async (req, res, next) => {
     const openai = new OpenAI({
         organization: process.env.OPENAI_ORGANIZATION,
         project: process.env.OPENAI_PROJECT_ID,
-        apiKey: process.env.OPENAI_API_KEY
+        apiKey: process.env.OAI_KEY
     });
 
     const {prompt} = req.body;
