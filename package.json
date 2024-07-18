@@ -1,0 +1,30 @@
+{
+  "name": "image-generator",
+  "version": "1.0.0",
+  "description": "An image generator app using Dall E 2",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon ./back-end/server.js",
+    "test": "server"
+  },
+  "author": "Khanh Le",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.3.0",
+    "cookie-parser": "^1.4.6",
+    "daisyui": "^4.12.10",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "nodemon": "^3.1.4",
+    "openai": "^4.52.7",
+    "postcss": "^8.4.39",
+    "react-router-dom": "^6.24.1",
+    "tailwindcss": "^3.4.4"
+  }
+}
