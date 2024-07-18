@@ -11,11 +11,13 @@ export const testRequest = (req, res, next) => {
 export const sendImgRequest2 = async (req, res, next) => {
     try {
 
+    /* Technically Cloudinary is only needed for image upload from local device.
     cloudinary.config({
         cloud_name: process.env.CLOUDINARY_NAME,
         api_key: process.env.CLOUDINARY_API_KEY,
         api_secret: process.env.CLOUDINARY_API_SECRET,
     });
+    */
 
     const openai = new OpenAI({
         organization: process.env.OPENAI_ORGANIZATION,
@@ -34,9 +36,9 @@ export const sendImgRequest2 = async (req, res, next) => {
 
     if (result) {
 
-        const uploadResult = await cloudinary.uploader.upload(result.url, {public_id: "testy"});
+        //const uploadResult = await cloudinary.uploader.upload(result.url, {public_id: "testy"});
 
-        return res.status(200).json({uploadResult});
+        return res.status(200).json({success: result.url});
     }  else {
         return res.status(400).json({error: "Image generation error"});
     }
