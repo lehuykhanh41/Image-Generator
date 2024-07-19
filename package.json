@@ -5,8 +5,10 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon ./back-end/server.js",
-    "test": "server"
+    "server": "nodemon back-end/server.js",
+    "launch": "node back-end/server.js",
+    "build": "npm install && npm install --prefix front-end && npm run build --prefix front-end",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Khanh Le",
   "license": "ISC",
