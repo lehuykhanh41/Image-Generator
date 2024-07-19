@@ -2,11 +2,11 @@
 
 ![Photo1](https://github.com/lehuykhanh41/Image-Generator/blob/master/Photos/img1.jpg)
 
-![Photo2](https://github.com/lehuykhanh41/Image-Generator/blob/master/Photos/img2.jpg)
+![Photo2](https://github.com/lehuykhanh41/Image-Generator/blob/master/Photos/img2.png)
 
-![Photo3](https://github.com/lehuykhanh41/Image-Generator/blob/master/Photos/img3.jpg}
+![Photo3](https://github.com/lehuykhanh41/Image-Generator/blob/master/Photos/img3.jpg)
 
-![Photo4](https://github.com/lehuykhanh41/Image-Generator/blob/master/Photos/img4.jpg)
+![Photo4](https://github.com/lehuykhanh41/Image-Generator/blob/master/Photos/img4.png)
 
 ## 1. OVERVIEW:
 
