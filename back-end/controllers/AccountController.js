@@ -34,7 +34,7 @@ export const signUp = async (req, res, next) => {
                 if (newUser) {
                     generateToken({userId: newUser._id}, res);
                     await newUser.save();
-                    return res.status(200).json({success: "Account Registration Success"});
+                    return res.status(200).json(newUser);
                 } else {
                     return res.status(500).json({error: "Register Error"});
                 }
@@ -58,7 +58,7 @@ export const login = async (req, res, next)=>{
 
         const existingAccount = await User.findOne({username});
         if (!existingAccount) {
-            return res.status(404).json({error: "Account Not Found"})
+            return res.status(404).json({error: "Account not found. Please create an account."})
         } else {
             const verifiedPassword = await bcryptjs.compare(password, existingAccount.password);
             if (!verifiedPassword) {

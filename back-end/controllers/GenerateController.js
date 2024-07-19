@@ -35,10 +35,8 @@ export const sendImgRequest2 = async (req, res, next) => {
     });
 
     if (result) {
-
         //const uploadResult = await cloudinary.uploader.upload(result.url, {public_id: "testy"});
-
-        return res.status(200).json({success: result.url});
+        return res.status(200).json({imgSrc: result.data[0].url});
     }  else {
         return res.status(400).json({error: "Image generation error"});
     }
