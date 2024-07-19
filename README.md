@@ -1,8 +1,11 @@
 # IMAGEN, AN AI-POWERED IMAGE GENERATOR
 
 ![Photo1](https://github.com/lehuykhanh41/Image-Generator/blob/master/Photos/img1.jpg)
+
 ![Photo2](https://github.com/lehuykhanh41/Image-Generator/blob/master/Photos/img2.jpg)
+
 ![Photo3](https://github.com/lehuykhanh41/Image-Generator/blob/master/Photos/img3.jpg}
+
 ![Photo4](https://github.com/lehuykhanh41/Image-Generator/blob/master/Photos/img4.jpg)
 
 ## 1. OVERVIEW:
